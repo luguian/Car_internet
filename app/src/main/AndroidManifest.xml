@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lu.car_internet">
+
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER"/>
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <!-- 适配Android N系统必需的ContentProvider写权限声明，写权限包含应用包名-->
+    <uses-permission android:name="baidu.push.permission.WRITE_PUSHINFOPROVIDER.com.lu.car_internet" />
+    <permission
+        android:name="baidu.push.permission.WRITE_PUSHINFOPROVIDER.com.lu.car_internet"
+        android:protectionLevel="normal">
+    </permission>
+
+    <application
+        android:name="com.lu.car_internet.activity.QrcodeActivity"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <!-- push service start -->
+        <!-- 用于接收系统消息以保证PushService正常运行 -->
+        <receiver android:name="com.baidu.android.pushservice.PushServiceReceiver"
+            android:process=":bdservice_v1" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="com.baidu.android.pushservice.action.notification.SHOW" />
+                <action android:name="com.baidu.android.pushservice.action.media.CLICK" />
+                <!-- 以下四项为可选的action声明，可大大提高service存活率和消息到达速度 -->
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+            </intent-filter>
+        </receiver>
+        <!-- Push服务接收客户端发送的各种请求-->
+        <receiver android:name="com.baidu.android.pushservice.RegistrationReceiver"
+            android:process=":bdservice_v1" >
+            <intent-filter>
+                <action android:name="com.baidu.android.pushservice.action.METHOD" />
+                <action android:name="com.baidu.android.pushservice.action.BIND_SYNC" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.baidu.android.pushservice.PushService" android:exported="true"
+            android:process=":bdservice_v1" >
+            <intent-filter >
+                <action android:name="com.baidu.android.pushservice.action.PUSH_SERVICE" />
+            </intent-filter>
+        </service>
+
+        <!-- 4.4版本新增的CommandService声明，提升小米和魅族手机上的实际推送到达率 -->
+        <service android:name="com.baidu.android.pushservice.CommandService"
+            android:exported="true" />
+
+        <!-- 适配Android N系统必需的ContentProvider声明，写权限包含应用包名-->
+        <provider
+            android:name="com.baidu.android.pushservice.PushInfoProvider"
+            android:authorities="com.lu.car_internet.bdpush"
+            android:writePermission="baidu.push.permission.WRITE_PUSHINFOPROVIDER.com.lu.car_internet"
+            android:protectionLevel = "signature"
+            android:exported="true" />
+        !-- 此处Receiver名字修改为当前包名路径 -->
+        <receiver android:name="com.lu.car_internet.config.PushReceiver">
+            <intent-filter>
+                <!-- 接收push消息 -->
+                <action android:name="com.baidu.android.pushservice.action.MESSAGE" />
+                <!-- 接收bind、setTags等method的返回结果-->
+                <action android:name="com.baidu.android.pushservice.action.RECEIVE" />
+                <!-- 接收通知点击事件，和通知自定义内容 -->
+                <action android:name="com.baidu.android.pushservice.action.notification.CLICK" />
+            </intent-filter>
+        </receiver>
+        <meta-data
+            android:name="api_key"
+            android:value="dp2HuYpHUreq902qINcupGx3" />
+        <!-- push结束 -->
+
+        <service android:name="com.amap.api.location.APSService"/>
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="35aa1e8d3be2859979cdedf526663cbf" />
+        <activity
+            android:name="com.lu.car_internet.activity.LoginActivity"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.GradientTabStripActivity">
+
+        </activity>
+        <activity
+            android:name="com.mob.tools.MobUIShell"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:name="com.lu.car_internet.activity.ForgetPwdActivity" />
+        <activity android:name="com.lu.car_internet.activity.RegisterTypeActivity" />
+        <activity android:name="com.lu.car_internet.activity.GuideLauncherActivity"/>
+        <activity android:name="com.lu.car_internet.activity.MainActivity"/>
+        <activity android:name="com.lu.car_internet.activity.ShortNameList" >
+        </activity>
+        <activity android:name="com.lu.car_internet.activity.ProvinceList" >
+        </activity>
+        <activity android:name="com.lu.car_internet.activity.CityList" >
+        </activity>
+        <activity android:name="com.lu.car_internet.activity.WeizhangResult" >
+        </activity>
+        <service android:name="com.cheshouye.api.client.WeizhangIntentService" />
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="1105848992" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.lu.car_internet.activity.RouteActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity
+            android:name="com.lu.car_internet.activity.PlaningActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lu.car_internet.activity.RouteNaviActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.lu.car_internet.activity.SearchActivity"/>
+        <activity
+            android:name="com.lu.car_internet.activity.ReceiveMessage"/>
+        <activity
+            android:name="com.lu.car_internet.activity.InputphoneActivity"/>
+        <activity
+            android:name="com.lu.car_internet.activity.ValidateActivity"/>
+        <activity
+            android:name="com.lu.car_internet.widget.NewsDetailActivity"></activity>
+        <activity
+            android:name="com.lu.car_internet.activity.BrandActivity"/>
+        <activity android:name="com.lu.car_internet.activity.TypeActivity"/>
+        <activity android:name="com.lu.car_internet.activity.BodylevelActivity"/>
+        <activity android:name="com.lu.car_internet.activity.CarMessageActivity"/>
+        <activity android:name="com.lu.car_internet.activity.CarnumberActivity"/>
+        <activity android:name="com.lu.car_internet.activity.MycarActivity"/>
+        <activity android:name="com.lu.car_internet.activity.AddgasolineActivity"/>
+        <activity android:name="com.lu.car_internet.activity.AgasolinedetailActivity"/>
+        <activity android:name="com.lu.car_internet.activity.MyordergasolineActivity"/>
+        <activity android:name="com.lu.car_internet.activity.PayActivity"/>
+        <activity android:name="com.lu.car_internet.activity.PaymentActivity"/>
+        <activity android:name="com.lu.car_internet.activity.FinishorderActivity"/>
+        <activity android:name="com.lu.car_internet.activity.OrderScanActivity"/>
+        <activity android:name="com.lu.car_internet.activity.PersonalmessageActivity"/>
+        <activity android:name="com.lu.car_internet.activity.SelectprofessionActivity"/>
+        <activity android:name="com.lu.car_internet.activity.EditemailActivity"/>
+        <activity android:name="com.lu.car_internet.activity.EditaddressActivity"/>
+        <activity android:name="com.lu.car_internet.activity.EditidnumberActivity"/>
+        <activity android:name="com.lu.car_internet.activity.OrderdetailsActivity"/>
+        <activity android:name="com.lu.car_internet.activity.ShareActivity"
+            android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:name="com.lu.car_internet.activity.ImgFileListActivity"/>
+        <activity android:name="com.lu.car_internet.activity.ImgsActivity"/>
+        <activity android:name="com.lu.car_internet.activity.SharemorephotoActivity"/>
+        <activity android:name="com.lu.car_internet.activity.QuerycarmessageActivity"/>
+        <activity android:name="com.lu.car_internet.activity.SearchTipActivity"/>
+        <activity android:name="cn.bmob.pay.v3.act.PayAct" />
+        <activity android:name="com.lu.car_internet.activity.FeedbackActivity"/>
+        <activity android:name="com.lu.car_internet.activity.EvaluateActivity"/>
+        <activity android:name="com.netease.scan.ui.CaptureActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity
+            android:name="com.lu.car_internet.activity.LawActivity"
+            android:label="法律法规" >
+        </activity>
+        <activity
+            android:name="com.lu.car_internet.activity.SubjectTwoActivity"
+            android:label="科目二" >
+        </activity>
+        <activity
+            android:name="com.lu.car_internet.activity.SxlxActivity"
+            android:label="顺序练习" >
+        </activity>
+        <activity
+            android:name="com.lu.car_internet.activity.SjlxActivity"
+            android:label="随机练习" >
+        </activity>
+        <activity
+            android:name="com.lu.car_internet.activity.ZjlxActivity"
+            android:label="章节练习" >
+        </activity>
+        <activity
+            android:name="com.lu.car_internet.activity.ZjlxTypeActivity"
+            android:label="章节练习" >
+        </activity>
+        <activity
+            android:name="com.lu.car_internet.activity.MnksActivity"
+            android:label="模拟考试" >
+        </activity>
+        <activity
+            android:name="com.lu.car_internet.activity.ScoreActivity"
+            android:label="考试得分" >
+        </activity>
+        <activity
+            android:name="com.lu.car_internet.activity.SubjectThreeActivity"
+            android:label="科目三" >
+        </activity>
+        <activity
+            android:name="com.lu.car_internet.activity.DetailActivity"
+            android:label="详情" >
+        </activity>
+        <activity
+            android:name="com.lu.car_internet.activity.CollectionActivity"
+            android:label="收藏夹" >
+        </activity>
+        <activity
+            android:name="com.lu.car_internet.activity.CtjlbActivity"
+            android:label="错题记录本" >
+        </activity>
+        <activity
+            android:name="com.lu.car_internet.activity.PointActivity"
+            android:label="考试要点" >
+        </activity>
+        <activity
+            android:name="com.lu.car_internet.activity.CheatsActivity"
+            android:label="必过秘籍" >
+        </activity>
+        <activity
+            android:name="com.lu.car_internet.activity.LicenseActivity"
+            android:label="驾照" >
+        </activity>
+
+
+    </application>
+
+</manifest>

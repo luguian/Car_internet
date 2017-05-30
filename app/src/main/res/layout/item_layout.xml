@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/transparent">
+    <ImageView
+        android:id="@+id/location_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/location_item"/>
+<RelativeLayout
+    android:id="@+id/position_itemrl"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@id/location_item"
+    android:layout_centerVertical="true"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp">
+    <TextView
+        android:id="@+id/poi_field_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/poi_title_size"
+        android:text="23"/>
+    <TextView
+        android:id="@+id/poi_value_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/poi_field_id"
+        android:textColor="@color/gary"
+        android:textSize="12sp"
+        android:text="12"
+         />
+</RelativeLayout>
+
+</RelativeLayout>

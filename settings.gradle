@@ -1,0 +1,6 @@
+include ':app', ':gradienttabstrip'
+include ':app',':swipeback'
+include ':app',':slidingmenu_library'
+include ':app',':actionbarsherlock'
+include ':app',':lib-qr-scan'
+include ':app',':loopview'

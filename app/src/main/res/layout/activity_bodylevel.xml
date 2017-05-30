@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#0775e0"
+        android:id="@+id/bodylevel_head">
+        <ImageButton
+            android:id="@+id/bodylevel_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@color/transparent"
+            android:src="@drawable/back_clicked"
+            android:enabled="true"/>
+        <View
+            android:id="@+id/bodylevelline"
+            android:layout_width="1px"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/bodylevel_back"
+            android:layout_marginLeft="8dp"
+            android:background="#FFFFFF"/>
+        <TextView
+            android:id="@+id/choose_bodylevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="选择车型"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:layout_toRightOf="@id/bodylevelline"/>
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/bodtlevel_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/bodylevel_head"
+        android:layout_gravity="center"
+        android:divider="@null">
+    </ListView>
+</RelativeLayout>

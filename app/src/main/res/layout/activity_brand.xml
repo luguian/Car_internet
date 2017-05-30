@@ -1,0 +1,259 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#0775e0">
+        <ImageButton
+            android:id="@+id/imback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@color/transparent"
+            android:src="@drawable/back_clicked"
+            android:enabled="true"/>
+        <View
+            android:id="@+id/imline"
+            android:layout_width="1px"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/imback"
+            android:layout_marginLeft="8dp"
+            android:background="#FFFFFF"/>
+        <ImageView
+            android:id="@+id/search_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/search_bar_icon"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/imline"/>
+
+    <com.lu.car_internet.view.ClearEditText
+        android:id="@+id/filter_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="4dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/search_bar"
+        android:background="#00000000"
+        android:hint="请输入关键字"
+        android:textColor="#FFFFFFFF"
+        android:singleLine="true"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/filter_edit"
+        android:layout_alignLeft="@+id/search_bar"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="4dp"
+        android:background="#FFFFFFFF" />
+    </RelativeLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:id="@+id/country_select"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:background="@drawable/choosebrand">
+                <RelativeLayout
+                    android:id="@+id/germany"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/notselected_bg">
+                    <TextView
+                        android:id="@+id/germany_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginTop="20dp"
+                        android:text="德国"
+                        android:textSize="24dp" />
+                    <View
+                        android:layout_width="72dp"
+                        android:layout_height="1px"
+                        android:layout_below="@id/germany_tv"
+                        android:background="@color/gary" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/france"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/germany">
+                    <TextView
+                        android:id="@+id/france_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginTop="20dp"
+                        android:text="法国"
+                        android:textSize="24dp" />
+                    <View
+                        android:layout_width="72dp"
+                        android:layout_height="1px"
+                        android:layout_below="@id/france_tv"
+                        android:background="@color/gary" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/america"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/france">
+                    <TextView
+                        android:id="@+id/america_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginTop="20dp"
+                        android:text="美国"
+                        android:textSize="24dp" />
+                    <View
+                        android:layout_width="72dp"
+                        android:layout_height="1px"
+                        android:layout_below="@id/america_tv"
+                        android:background="@color/gary" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/japan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/america">
+                    <TextView
+                        android:id="@+id/japan_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginTop="20dp"
+                        android:text="日本"
+                        android:textSize="24dp" />
+                    <View
+                        android:layout_width="72dp"
+                        android:layout_height="1px"
+                        android:layout_below="@id/japan_tv"
+                        android:background="@color/gary" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/italy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/japan">
+                    <TextView
+                        android:id="@+id/italy_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginTop="20dp"
+                        android:text="意大利"
+                        android:textSize="24dp" />
+                    <View
+                        android:layout_width="72dp"
+                        android:layout_height="1px"
+                        android:layout_below="@id/italy_tv"
+                        android:background="@color/gary" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/britain"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/italy">
+                    <TextView
+                        android:id="@+id/britain_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginTop="20dp"
+                        android:text="英国"
+                        android:textSize="24dp" />
+                    <View
+                        android:layout_width="72dp"
+                        android:layout_height="1px"
+                        android:layout_below="@id/britain_tv"
+                        android:background="@color/gary" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/chinese"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/britain">
+                    <TextView
+                        android:id="@+id/chinese_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginTop="20dp"
+                        android:text="中国"
+                        android:textSize="24dp" />
+                    <View
+                        android:layout_width="72dp"
+                        android:layout_height="1px"
+                        android:layout_below="@id/chinese_tv"
+                        android:background="@color/gary" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/other"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/chinese">
+                    <TextView
+                        android:id="@+id/other_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginTop="20dp"
+                        android:text="其他"
+                        android:textSize="24dp" />
+                    <View
+                        android:layout_width="72dp"
+                        android:layout_height="1px"
+                        android:layout_below="@id/other_tv"
+                        android:background="@color/gary" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <ListView
+                android:id="@+id/country_lvcountry"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_toRightOf="@id/country_select"
+                android:divider="@null">
+            </ListView>
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/dialog"
+            android:layout_width="80.0dip"
+            android:layout_height="80.0dip"
+            android:layout_gravity="center"
+            android:background="@drawable/show_head_toast_bg"
+            android:gravity="center"
+            android:textColor="#ffffffff"
+            android:textSize="30.0dip"
+            android:visibility="invisible" />
+        <com.lu.car_internet.view.SideBar
+            android:id="@+id/sidrbar"
+            android:layout_width="30.0dip"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right|center" />
+    </FrameLayout>
+
+
+</LinearLayout>

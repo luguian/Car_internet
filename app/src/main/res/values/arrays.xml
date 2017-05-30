@@ -1,0 +1,1172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string-array name="date">
+      <!-- 德国-->
+        <item>Gumpert</item>
+        <item>MAN</item>
+        <item>阿德勒</item>
+        <item>阿尔宾娜</item>
+        <item>阿特斯</item>
+        <item>阿维茨</item>
+        <item>埃姆菲</item>
+        <item>爱森纳奇</item>
+        <item>爱斯德拉</item>
+        <item>奥迪</item>
+        <item>巴博斯</item>
+        <item>宝马</item>
+        <item>保时捷</item>
+        <item>奔驰</item>
+        <item>比特尔</item>
+        <item>博格瓦德</item>
+        <item>大众</item>
+        <item>恩苏</item>
+        <item>盖特博德</item>
+        <item>格哥摩</item>
+        <item>格纳斯</item>
+        <item>霍希</item>
+        <item>精灵</item>
+        <item>卡尔森</item>
+        <item>凯斯鲍尔</item>
+        <item>鲁夫</item>
+        <item>迈巴赫</item>
+        <item>麦思齐美特</item>
+        <item>默克</item>
+        <item>穆茨</item>
+        <item>尼奥普兰</item>
+        <item>欧宝</item>
+        <item>徘徊者</item>
+        <item>普茨迈斯特</item>
+        <item>斯托维尔</item>
+        <item>索埃勒</item>
+        <item>泰卡特</item>
+        <item>特拉贝特</item>
+        <item>瓦特堡</item>
+        <item>威兹曼</item>
+        <item>小奇迹汽车</item>
+        <item>伊达格</item>
+        <item>宇宙</item>
+        <item>正德尔</item>
+
+        <!-- 法国-->
+        <item>DS</item>
+        <item>阿米卡尔</item>
+        <item>奥韦兰德</item>
+        <item>贝利埃</item>
+        <item>比格兰</item>
+        <item>标志</item>
+        <item>波吉奥</item>
+        <item>布加迪</item>
+        <item>达奇拉</item>
+        <item>戴尔马特</item>
+        <item>德底昂宝通</item>
+        <item>德拉格</item>
+        <item>德拉哈耶</item>
+        <item>蒂格尼</item>
+        <item>法希维加</item>
+        <item>霍米尔</item>
+        <item>霍切奇斯</item>
+        <item>吉德姆</item>
+        <item>雷诺</item>
+        <item>烈贵</item>
+        <item>罗奈恩底垂</item>
+        <item>罗切斯尼德</item>
+        <item>罗森加特</item>
+        <item>罗维恩</item>
+        <item>马瑞斯</item>
+        <item>马特拉</item>
+        <item>美加</item>
+        <item>美尼尔</item>
+        <item>莫斯</item>
+        <item>纳西</item>
+        <item>欧美佳</item>
+        <item>潘哈德勒瓦索尔</item>
+        <item>莎尔玛生</item>
+        <item>舍科马</item>
+        <item>塔伯特</item>
+        <item>威莱特</item>
+        <item>韦兰特</item>
+        <item>文图瑞</item>
+        <item>沃新恩</item>
+        <item>西马克</item>
+        <item>西斯帕罗苏扎</item>
+        <item>休列兹</item>
+        <item>雪铁龙</item>
+        <item>尤尼克</item>
+        <item>泽德尔</item>
+
+
+        <!-- 美国-->
+        <item>Jeep</item>
+        <item>奥兹莫比尔</item>
+        <item>奥兹莫比尔曙光</item>
+        <item>别克</item>
+        <item>布罗克韦</item>
+        <item>道奇</item>
+        <item>道奇蝰蛇</item>
+        <item>福特</item>
+        <item>福特雷鸟</item>
+        <item>福特美洲狮</item>
+        <item>悍马</item>
+        <item>吉奥</item>
+        <item>卡玛洛火鸟</item>
+        <item>凯迪拉克</item>
+        <item>克尔维特</item>
+        <item>克莱斯勒</item>
+        <item>林肯</item>
+        <item>麦克</item>
+        <item>莫斯勒</item>
+        <item>帕诺兹</item>
+        <item>庞蒂亚克</item>
+        <item>普利茅斯</item>
+        <item>切克</item>
+        <item>水星</item>
+        <item>斯图兹</item>
+        <item>特斯拉</item>
+        <item>通用凤凰</item>
+        <item>通用上将</item>
+        <item>土星</item>
+        <item>西尔贝</item>
+        <item>雪佛兰</item>
+        <item>雪佛兰玛洛</item>
+        <item>鹰牌</item>
+
+
+
+        <!-- 日本-->
+        <item>NISSAN</item>
+        <item>爱斯乐</item>
+        <item>本田</item>
+        <item>川崎</item>
+        <item>村田</item>
+        <item>达特桑</item>
+        <item>大发</item>
+        <item>东急</item>
+        <item>丰和</item>
+        <item>丰田</item>
+        <item>光冈</item>
+        <item>皇冠</item>
+        <item>近畿</item>
+        <item>雷克萨斯</item>
+        <item>铃木</item>
+        <item>马自达</item>
+        <item>末广</item>
+        <item>讴歌</item>
+        <item>日产柴</item>
+        <item>日产总统</item>
+        <item>日野</item>
+        <item>塞恩</item>
+        <item>三菱</item>
+        <item>斯巴鲁</item>
+        <item>王子</item>
+        <item>五十铃</item>
+        <item>小松</item>
+        <item>雅马哈</item>
+        <item>英菲尼迪</item>
+        <item>住友</item>
+
+        <!-- 意大利-->
+        <item>阿巴斯</item>
+        <item>阿尔法罗密欧</item>
+        <item>阿沙</item>
+        <item>安奎拉</item>
+        <item>安莎尔多</item>
+        <item>比亚乔</item>
+        <item>比扎瑞尼</item>
+        <item>边赤</item>
+        <item>宾尼法利纳</item>
+        <item>博通</item>
+        <item>德托马索</item>
+        <item>迪亚托</item>
+        <item>法拉利</item>
+        <item>法斯特</item>
+        <item>菲亚特</item>
+        <item>吉安尼尼</item>
+        <item>卡威乐</item>
+        <item>兰博基尼</item>
+        <item>蓝旗亚</item>
+        <item>旅行</item>
+        <item>玛莎拉蒂</item>
+        <item>摩来提</item>
+        <item>欧姆</item>
+        <item>帕加尼</item>
+        <item>奇基亚罗</item>
+        <item>乔西亚</item>
+        <item>思齐来瑞</item>
+        <item>斯坦吉尼</item>
+        <item>斯托拉</item>
+        <item>斯托瑞罗</item>
+        <item>维格奈</item>
+        <item>西采塔</item>
+        <item>西玛莎</item>
+        <item>西斯塔尼亚</item>
+        <item>西亚塔</item>
+        <item>伊诺森蒂</item>
+        <item>伊索</item>
+        <item>依多尼斯</item>
+        <item>依维柯</item>
+        <item>因特美卡尼卡</item>
+        <item>扎格托</item>
+
+        <!-- 英国-->
+        <item>阿尔维斯</item>
+        <item>阿吉尔</item>
+        <item>阿姆斯通赛德利</item>
+        <item>阿瑞尔</item>
+        <item>阿斯顿马丁</item>
+        <item>阿斯卡利</item>
+        <item>阿斯奎斯</item>
+        <item>爱西</item>
+        <item>奥拉德</item>
+        <item>奥斯汀</item>
+        <item>澳斯汀希利</item>
+        <item>巴姆</item>
+        <item>豹</item>
+        <item>宾利</item>
+        <item>布里斯托</item>
+        <item>达科斯</item>
+        <item>戴姆斯</item>
+        <item>法波德</item>
+        <item>福登</item>
+        <item>吉列塔</item>
+        <item>杰森</item>
+        <item>捷豹</item>
+        <item>凯特汉姆</item>
+        <item>凯旋</item>
+        <item>科纳特</item>
+        <item>拉贡达</item>
+        <item>劳斯莱斯</item>
+        <item>利兰</item>
+        <item>利兰奥斯汀</item>
+        <item>莲花</item>
+        <item>路虎</item>
+        <item>罗孚</item>
+        <item>罗纳塔</item>
+        <item>马科斯</item>
+        <item>迈凯伦</item>
+        <item>美特伯提坦</item>
+        <item>名爵</item>
+        <item>摩根</item>
+        <item>莫里斯</item>
+        <item>帕拉戴</item>
+        <item>特威尔</item>
+        <item>图纳</item>
+        <item>托纳多</item>
+        <item>沃克斯豪尔</item>
+
+
+        <!-- 中国-->
+        <item>宝骏</item>
+        <item>宝龙</item>
+        <item>北京汽车</item>
+        <item>北京轻型汽车</item>
+        <item>北汽制造</item>
+        <item>奔腾</item>
+        <item>比亚迪</item>
+        <item>昌河</item>
+        <item>大迪</item>
+        <item>大通</item>
+        <item>帝豪</item>
+        <item>东风</item>
+        <item>东南</item>
+        <item>福迪</item>
+        <item>福田</item>
+        <item>哈飞</item>
+        <item>海格</item>
+        <item>海马</item>
+        <item>航天圆通</item>
+        <item>恒天</item>
+        <item>红旗</item>
+        <item>华普</item>
+        <item>华泰</item>
+        <item>黄海</item>
+        <item>汇众</item>
+        <item>吉利</item>
+        <item>江淮</item>
+        <item>江铃</item>
+        <item>江南</item>
+        <item>金杯</item>
+        <item>金龙</item>
+        <item>开端</item>
+        <item>理念</item>
+        <item>力帆</item>
+        <item>猎豹</item>
+        <item>陆风</item>
+        <item>美鹿</item>
+        <item>美亚</item>
+        <item>纳智捷</item>
+        <item>奇瑞</item>
+        <item>启辰</item>
+        <item>庆铃</item>
+        <item>全球鹰</item>
+        <item>全顺</item>
+        <item>荣威</item>
+        <item>瑞麟</item>
+        <item>赛豹</item>
+        <item>上海汽车</item>
+        <item>神龙</item>
+        <item>双环</item>
+        <item>腾势</item>
+        <item>天马</item>
+        <item>威麟</item>
+        <item>威旺</item>
+        <item>五菱</item>
+        <item>夏利</item>
+        <item>新凯</item>
+        <item>星客特</item>
+        <item>野马</item>
+        <item>英伦</item>
+        <item>英致</item>
+        <item>永源</item>
+        <item>跃进</item>
+        <item>长安</item>
+        <item>长安商用</item>
+        <item>长城</item>
+        <item>长丰</item>
+        <item>之诺</item>
+        <item>中国一汽</item>
+        <item>中华</item>
+        <item>中欧</item>
+        <item>中顺</item>
+        <item>中兴</item>
+        <item>众泰</item>
+
+
+        <!--其他 -->
+      <item>Elfin</item>
+      <item>Joss</item>
+      <item>阿林内拉</item>
+      <item>阿罗</item>
+      <item>阿维托托尔</item>
+      <item>宝腾</item>
+      <item>毕加索</item>
+      <item>菠萝乃兹</item>
+      <item>达夫</item>
+      <item>达西</item>
+      <item>达西亚</item>
+      <item>大宇</item>
+      <item>大宇客车</item>
+      <item>大宇伊斯帕罗</item>
+      <item>斗山</item>
+      <item>法必斯</item>
+      <item>戈兹</item>
+      <item>霍顿</item>
+      <item>捷克阿维亚</item>
+      <item>卡玛斯</item>
+      <item>科尼塞尼</item>
+      <item>拉达</item>
+      <item>拉兹</item>
+      <item>雷诺三星</item>
+      <item>莫斯科人牌</item>
+      <item>尼斯</item>
+      <item>普罗通</item>
+      <item>起亚</item>
+      <item>乔瑟</item>
+      <item>绅宝</item>
+      <item>世爵</item>
+      <item>帅成</item>
+      <item>双龙</item>
+      <item>斯堪尼亚</item>
+      <item>斯柯达</item>
+      <item>斯太尔</item>
+      <item>塔塔</item>
+      <item>太脱拉</item>
+      <item>特尔科</item>
+      <item>沃尔沃</item>
+      <item>西亚特</item>
+       <item>晓星</item>
+      <item>亚细亚</item>
+      <item>耶尔奇</item>
+      <item>伊卡鲁斯</item>
+      <item>依兹</item>
+      <item>勇士</item>
+      <item>尤兹</item>
+      <item>兹尔</item>
+    </string-array>
+
+  <string-array name="germany">
+      <item>Gumpert</item>
+      <item>MAN</item>
+      <item>阿德勒</item>
+      <item>阿尔宾娜</item>
+      <item>阿特斯</item>
+      <item>阿维茨</item>
+      <item>埃姆菲</item>
+      <item>爱森纳奇</item>
+      <item>爱斯德拉</item>
+      <item>奥迪</item>
+      <item>巴博斯</item>
+      <item>宝马</item>
+      <item>保时捷</item>
+      <item>奔驰</item>
+      <item>比特尔</item>
+      <item>博格瓦德</item>
+      <item>大众</item>
+      <item>恩苏</item>
+      <item>盖特博德</item>
+      <item>格哥摩</item>
+      <item>格纳斯</item>
+      <item>霍希</item>
+      <item>精灵</item>
+      <item>卡尔森</item>
+      <item>凯斯鲍尔</item>
+      <item>鲁夫</item>
+      <item>迈巴赫</item>
+      <item>麦思齐美特</item>
+      <item>默克</item>
+      <item>穆茨</item>
+      <item>尼奥普兰</item>
+      <item>欧宝</item>
+      <item>徘徊者</item>
+      <item>普茨迈斯特</item>
+      <item>斯托维尔</item>
+      <item>索埃勒</item>
+      <item>泰卡特</item>
+      <item>特拉贝特</item>
+      <item>瓦特堡</item>
+      <item>威兹曼</item>
+      <item>小奇迹汽车</item>
+      <item>伊达格</item>
+      <item>宇宙</item>
+      <item>正德尔</item>
+
+  </string-array>
+  <string-array name="france">
+      <item>DS</item>
+      <item>阿米卡尔</item>
+      <item>奥韦兰德</item>
+      <item>贝利埃</item>
+      <item>比格兰</item>
+      <item>标志</item>
+      <item>波吉奥</item>
+      <item>布加迪</item>
+      <item>达奇拉</item>
+      <item>戴尔马特</item>
+      <item>德底昂宝通</item>
+      <item>德拉格</item>
+      <item>德拉哈耶</item>
+      <item>蒂格尼</item>
+      <item>法希维加</item>
+      <item>霍米尔</item>
+      <item>霍切奇斯</item>
+      <item>吉德姆</item>
+      <item>雷诺</item>
+      <item>烈贵</item>
+      <item>罗奈恩底垂</item>
+      <item>罗切斯尼德</item>
+      <item>罗森加特</item>
+      <item>罗维恩</item>
+      <item>马瑞斯</item>
+      <item>马特拉</item>
+      <item>美加</item>
+      <item>美尼尔</item>
+      <item>莫斯</item>
+      <item>纳西</item>
+      <item>欧美佳</item>
+      <item>潘哈德勒瓦索尔</item>
+      <item>莎尔玛生</item>
+      <item>舍科马</item>
+      <item>塔伯特</item>
+      <item>威莱特</item>
+      <item>韦兰特</item>
+      <item>文图瑞</item>
+      <item>沃新恩</item>
+      <item>西马克</item>
+      <item>西斯帕罗苏扎</item>
+      <item>休列兹</item>
+      <item>雪铁龙</item>
+      <item>尤尼克</item>
+      <item>泽德尔</item>
+  </string-array>
+  <string-array name="america">
+      <item>Jeep</item>
+      <item>奥兹莫比尔</item>
+      <item>奥兹莫比尔曙光</item>
+      <item>别克</item>
+      <item>布罗克韦</item>
+      <item>道奇</item>
+      <item>道奇蝰蛇</item>
+      <item>福特</item>
+      <item>福特雷鸟</item>
+      <item>福特美洲狮</item>
+      <item>悍马</item>
+      <item>吉奥</item>
+      <item>卡玛洛火鸟</item>
+      <item>凯迪拉克</item>
+      <item>克尔维特</item>
+      <item>克莱斯勒</item>
+      <item>林肯</item>
+      <item>麦克</item>
+      <item>莫斯勒</item>
+      <item>帕诺兹</item>
+      <item>庞蒂亚克</item>
+      <item>普利茅斯</item>
+      <item>切克</item>
+      <item>水星</item>
+      <item>斯图兹</item>
+      <item>特斯拉</item>
+      <item>通用凤凰</item>
+      <item>通用上将</item>
+      <item>土星</item>
+      <item>西尔贝</item>
+      <item>雪佛兰</item>
+      <item>雪佛兰玛洛</item>
+      <item>鹰牌</item>
+  </string-array>
+  <string-array name="japan">
+      <item>NISSAN</item>
+      <item>爱斯乐</item>
+      <item>本田</item>
+      <item>川崎</item>
+      <item>村田</item>
+      <item>达特桑</item>
+      <item>大发</item>
+      <item>东急</item>
+      <item>丰和</item>
+      <item>丰田</item>
+      <item>光冈</item>
+      <item>皇冠</item>
+      <item>近畿</item>
+      <item>雷克萨斯</item>
+      <item>铃木</item>
+      <item>马自达</item>
+      <item>末广</item>
+      <item>讴歌</item>
+      <item>日产柴</item>
+      <item>日产总统</item>
+      <item>日野</item>
+      <item>塞恩</item>
+      <item>三菱</item>
+      <item>斯巴鲁</item>
+      <item>王子</item>
+      <item>五十铃</item>
+      <item>小松</item>
+      <item>雅马哈</item>
+      <item>英菲尼迪</item>
+      <item>住友</item>
+
+
+  </string-array>
+  <string-array name="italy">
+      <item>阿巴斯</item>
+      <item>阿尔法罗密欧</item>
+      <item>阿沙</item>
+      <item>安奎拉</item>
+      <item>安莎尔多</item>
+      <item>比亚乔</item>
+      <item>比扎瑞尼</item>
+      <item>边赤</item>
+      <item>宾尼法利纳</item>
+      <item>博通</item>
+      <item>德托马索</item>
+      <item>迪亚托</item>
+      <item>法拉利</item>
+      <item>法斯特</item>
+      <item>菲亚特</item>
+      <item>吉安尼尼</item>
+      <item>卡威乐</item>
+      <item>兰博基尼</item>
+      <item>蓝旗亚</item>
+      <item>旅行</item>
+      <item>玛莎拉蒂</item>
+      <item>摩来提</item>
+      <item>欧姆</item>
+      <item>帕加尼</item>
+      <item>奇基亚罗</item>
+      <item>乔西亚</item>
+      <item>思齐来瑞</item>
+      <item>斯坦吉尼</item>
+      <item>斯托拉</item>
+      <item>斯托瑞罗</item>
+      <item>维格奈</item>
+      <item>西采塔</item>
+      <item>西玛莎</item>
+      <item>西斯塔尼亚</item>
+      <item>西亚塔</item>
+      <item>伊诺森蒂</item>
+      <item>伊索</item>
+      <item>依多尼斯</item>
+      <item>依维柯</item>
+      <item>因特美卡尼卡</item>
+      <item>扎格托</item>
+</string-array>
+  <string-array name="britain">
+      <item>阿尔维斯</item>
+      <item>阿吉尔</item>
+      <item>阿姆斯通赛德利</item>
+      <item>阿瑞尔</item>
+      <item>阿斯顿马丁</item>
+      <item>阿斯卡利</item>
+      <item>阿斯奎斯</item>
+      <item>爱西</item>
+      <item>奥拉德</item>
+      <item>奥斯汀</item>
+      <item>澳斯汀希利</item>
+      <item>巴姆</item>
+      <item>豹</item>
+      <item>宾利</item>
+      <item>布里斯托</item>
+      <item>达科斯</item>
+      <item>戴姆斯</item>
+      <item>法波德</item>
+      <item>福登</item>
+      <item>吉列塔</item>
+      <item>杰森</item>
+      <item>捷豹</item>
+      <item>凯特汉姆</item>
+      <item>凯旋</item>
+      <item>科纳特</item>
+      <item>拉贡达</item>
+      <item>劳斯莱斯</item>
+      <item>利兰</item>
+      <item>利兰奥斯汀</item>
+      <item>莲花</item>
+      <item>路虎</item>
+      <item>罗孚</item>
+      <item>罗纳塔</item>
+      <item>马科斯</item>
+      <item>迈凯伦</item>
+      <item>美特伯提坦</item>
+      <item>名爵</item>
+      <item>摩根</item>
+      <item>莫里斯</item>
+      <item>帕拉戴</item>
+      <item>特威尔</item>
+      <item>图纳</item>
+      <item>托纳多</item>
+      <item>沃克斯豪尔</item>
+</string-array>
+  <string-array name="chinese">
+      <item>宝骏</item>
+      <item>宝龙</item>
+      <item>北京汽车</item>
+      <item>北京轻型汽车</item>
+      <item>北汽制造</item>
+      <item>奔腾</item>
+      <item>比亚迪</item>
+      <item>昌河</item>
+      <item>大迪</item>
+      <item>大通</item>
+      <item>帝豪</item>
+      <item>东风</item>
+      <item>东南</item>
+      <item>福迪</item>
+      <item>福田</item>
+      <item>哈飞</item>
+      <item>海格</item>
+      <item>海马</item>
+      <item>航天圆通</item>
+      <item>恒天</item>
+      <item>红旗</item>
+      <item>华普</item>
+      <item>华泰</item>
+      <item>黄海</item>
+      <item>汇众</item>
+      <item>吉利</item>
+      <item>江淮</item>
+      <item>江铃</item>
+      <item>江南</item>
+      <item>金杯</item>
+      <item>金龙</item>
+      <item>开端</item>
+      <item>理念</item>
+      <item>力帆</item>
+      <item>猎豹</item>
+      <item>陆风</item>
+      <item>美鹿</item>
+      <item>美亚</item>
+      <item>纳智捷</item>
+      <item>奇瑞</item>
+      <item>启辰</item>
+      <item>庆铃</item>
+      <item>全球鹰</item>
+      <item>全顺</item>
+      <item>荣威</item>
+      <item>瑞麟</item>
+      <item>赛豹</item>
+      <item>上海汽车</item>
+      <item>神龙</item>
+      <item>双环</item>
+      <item>腾势</item>
+      <item>天马</item>
+      <item>威麟</item>
+      <item>威旺</item>
+      <item>五菱</item>
+      <item>夏利</item>
+      <item>新凯</item>
+      <item>星客特</item>
+      <item>野马</item>
+      <item>英伦</item>
+      <item>英致</item>
+      <item>永源</item>
+      <item>跃进</item>
+      <item>长安</item>
+      <item>长安商用</item>
+      <item>长城</item>
+      <item>长丰</item>
+      <item>之诺</item>
+      <item>中国一汽</item>
+      <item>中华</item>
+      <item>中欧</item>
+      <item>中顺</item>
+      <item>中兴</item>
+      <item>众泰</item>
+  </string-array>
+  <string-array name="other">
+      <item>Elfin</item>
+      <item>Joss</item>
+      <item>阿林内拉</item>
+      <item>阿罗</item>
+      <item>阿维托托尔</item>
+      <item>宝腾</item>
+      <item>毕加索</item>
+      <item>菠萝乃兹</item>
+      <item>达夫</item>
+      <item>达西</item>
+      <item>达西亚</item>
+      <item>大宇</item>
+      <item>大宇客车</item>
+      <item>大宇伊斯帕罗</item>
+      <item>斗山</item>
+      <item>法必斯</item>
+      <item>戈兹</item>
+      <item>霍顿</item>
+      <item>捷克阿维亚</item>
+      <item>卡玛斯</item>
+      <item>科尼塞尼</item>
+      <item>拉达</item>
+      <item>拉兹</item>
+      <item>雷诺三星</item>
+      <item>莫斯科人牌</item>
+      <item>尼斯</item>
+      <item>普罗通</item>
+      <item>起亚</item>
+      <item>乔瑟</item>
+      <item>绅宝</item>
+      <item>世爵</item>
+      <item>帅成</item>
+      <item>双龙</item>
+      <item>斯堪尼亚</item>
+      <item>斯柯达</item>
+      <item>斯太尔</item>
+      <item>塔塔</item>
+      <item>太脱拉</item>
+      <item>特尔科</item>
+      <item>沃尔沃</item>
+      <item>西亚特</item>
+      <item>晓星</item>
+      <item>亚细亚</item>
+      <item>耶尔奇</item>
+      <item>伊卡鲁斯</item>
+      <item>依兹</item>
+      <item>勇士</item>
+      <item>尤兹</item>
+      <item>兹尔</item>
+  </string-array>
+    <string-array name="aodi">
+        <item>A4L</item>
+        <item>A6L</item>
+        <item>Q5</item>
+        <item>A1</item>
+        <item>A3</item>
+        <item>A5</item>
+        <item>A7</item>
+        <item>A8L</item>
+        <item>Q7</item>
+        <item>R8</item>
+        <item>S5</item>
+        <item>S8</item>
+        <item>TT</item>
+    </string-array>
+    <string-array name="babosi">
+        <item>S级</item>
+    </string-array>
+    <string-array name="baoma">
+        <item>华晨宝马3系</item>
+        <item>华晨宝马X1</item>
+        <item>进口宝马1系</item>
+        <item>进口宝马3系</item>
+        <item>进口宝马5系</item>
+        <item>进口宝马7系</item>
+        <item>进口宝马M3</item>
+        <item>进口宝马M5</item>
+        <item>进口宝马M6</item>
+        <item>进口宝马X1</item>
+        <item>进口宝马X3</item>
+        <item>进口宝马X5</item>
+        <item>进口宝马X5M</item>
+        <item>进口宝马X6</item>
+        <item>进口宝马X6M</item>
+        <item>进口宝马Z4</item>
+    </string-array>
+    <string-array name="baoshijie">
+        <item>911</item>
+        <item>Boxster</item>
+        <item>Cayman</item>
+        <item>Caynne</item>
+        <item>Panamera</item>
+    </string-array>
+
+    <string-array name="benchi">
+    <item>背景奔驰</item>
+    <item>福建奔驰</item>
+    <item>进口奔驰</item>
+    </string-array>
+    <string-array name="dazhong">
+        <item>上海大众</item>
+        <item>一汽大众</item>
+        <item>进口大众</item>
+    </string-array>
+    <string-array name="maibahe">
+        <item>57</item>
+        <item>62</item>
+    </string-array>
+    <string-array name="MINI">
+        <item>MINI</item>
+        <item>CLUBMAN</item>
+        <item>ROADSTER</item>
+        <item>CABRIO</item>
+    </string-array>
+    <string-array name="sikeda">
+        <item>晶锐</item>
+        <item>明锐</item>
+    </string-array>
+    <string-array name="smart">
+        <item>晶锐</item>
+        <item>明锐</item>
+    </string-array>
+    <string-array name="weiziman">
+        <item>MF4</item>
+        <item>MF5</item>
+    </string-array>
+    <string-array name="bieke">
+        <item>上海通用别克</item>
+        <item>进口别克</item>
+    </string-array>
+    <string-array name="daoqi">
+        <item>锋哲</item>
+        <item>凯领</item>
+        <item>酷搏</item>
+        <item>酷威</item>
+    </string-array>
+    <string-array name="fute">
+        <item>长安福特</item>
+        <item>进口福特</item>
+    </string-array>
+    <string-array name="hanma">
+        <item>H3</item>
+    </string-array>
+    <string-array name="Jeep">
+        <item>大切诺基</item>
+        <item>牧马人</item>
+        <item>指挥官</item>
+    </string-array>
+    <string-array name="kaidilake">
+        <item>上海通用凯迪拉克</item>
+        <item>进口凯迪拉克</item>
+        <item>指挥官</item>
+    </string-array>
+    <string-array name="kelaisile">
+        <item>大捷龙</item>
+        <item>PT漫步者</item>
+    </string-array>
+    <string-array name="linkeng">
+        <item>领航员</item>
+        <item>MKS</item>
+        <item>MKT</item>
+        <item>MKX</item>
+    </string-array>
+    <string-array name="oubao">
+        <item>安德拉</item>
+        <item>赛飞利</item>
+        <item>雅特</item>
+    </string-array>
+    <string-array name="xuefolan">
+        <item>上海通用雪佛兰</item>
+        <item>进口雪佛兰</item>
+    </string-array>
+    <string-array name="biaozhi">
+    <item>东风标致</item>
+    <item>进口标致</item>
+     </string-array>
+    <string-array name="leinuo">
+        <item>风景</item>
+        <item>风郎</item>
+        <item>利雷傲</item>
+        <item>拉古那</item>
+    </string-array>
+    <string-array name="xuetielong">
+        <item>东风雪铁龙</item>
+        <item>进口雪铁龙</item>
+    </string-array>
+    <string-array name="bujiadi">
+        <item>威航</item>
+    </string-array>
+    <string-array name="falali">
+        <item>458</item>
+        <item>599</item>
+        <item>612-OTO</item>
+        <item>FF</item>
+    </string-array>
+
+    <string-array name="feiyate">
+        <item>500</item>
+        <item>博悦</item>
+        <item>菲悦</item>
+        <item>领雅</item>
+    </string-array>
+
+    <string-array name="lanbojini">
+        <item>Ayentador</item>
+        <item>盖拉多</item>
+        <item>蝙蝠</item>
+        <item>领雅</item>
+    </string-array>
+    <string-array name="mashaladi">
+        <item>GranCabrio</item>
+        <item>GT</item>
+        <item>总裁</item>
+    </string-array>
+
+    <string-array name="bentian">
+        <item>广汽本田</item>
+        <item>东风本田</item>
+    </string-array>
+
+    <string-array name="fengtian">
+        <item>一汽丰田</item>
+        <item>广汽丰田</item>
+        <item>进口丰田</item>
+    </string-array>
+
+    <string-array name="leikesasi">
+        <item>GT200h</item>
+        <item>ES</item>
+        <item>GS</item>
+        <item>IS</item>
+        <item>LS</item>
+    </string-array>
+
+    <string-array name="lingmu">
+        <item>长安铃木</item>
+        <item>昌河铃木</item>
+        <item>进口铃木</item>
+    </string-array>
+
+    <string-array name="mazida">
+        <item>一汽马自达</item>
+        <item>长安马自达</item>
+        <item>进口马自达</item>
+    </string-array>
+
+    <string-array name="ouge">
+        <item>MDX</item>
+        <item>RL</item>
+        <item>TL</item>
+    </string-array>
+
+    <string-array name="richan">
+        <item>东风日产</item>
+        <item>郑州日产</item>
+        <item>进口日产</item>
+    </string-array>
+
+    <string-array name="sanling">
+        <item>东南三菱</item>
+        <item>长丰三菱</item>
+        <item>进口三菱</item>
+    </string-array>
+
+    <string-array name="qiya">
+        <item>东风悦达起亚</item>
+        <item>进口起亚</item>
+        <item>进口三菱</item>
+    </string-array>
+
+    <string-array name="xiandai">
+        <item>北京现代</item>
+        <item>进口现代</item>
+    </string-array>
+
+    <string-array name="jiebao">
+        <item>慕尚</item>
+        <item>欧陆</item>
+        <item>雅致</item>
+    </string-array>
+
+    <string-array name="laosilaisi">
+        <item>古思特</item>
+        <item>幻影</item>
+        <item>雅致</item>
+    </string-array>
+
+    <string-array name="luhu">
+        <item>发现4</item>
+        <item>揽胜</item>
+        <item>卫士</item>
+    </string-array>
+
+    <string-array name="benteng">
+        <item>B50</item>
+        <item>B70</item>
+    </string-array>
+
+    <string-array name="biyadi">
+        <item>e6</item>
+        <item>S6</item>
+        <item>F0</item>
+        <item>F3</item>
+        <item>F6</item>
+        <item>G3</item>
+    </string-array>
+
+    <string-array name="changan">
+        <item>奔奔</item>
+        <item>CM8</item>
+        <item>CX20</item>
+        <item>CX30</item>
+    </string-array>
+
+    <string-array name="qichen">
+        <item>D50</item>
+    </string-array>
+
+    <string-array name="qirui">
+        <item>A3</item>
+        <item>东方之子</item>
+        <item>风云2</item>
+        <item>A1</item>
+        <item>旗云</item>
+    </string-array>
+
+    <string-array name="rongwei">
+    <item>350</item>
+    <item>550</item>
+    <item>750</item>
+    <item>950</item>
+    </string-array>
+
+    <string-array name="wuling">
+        <item>宏光</item>
+        <item>荣光</item>
+        <item>之光</item>
+        <item>兴旺</item>
+    </string-array>
+
+    <string-array name="zhonghua">
+        <item>H50</item>
+        <item>骏捷</item>
+        <item>酷宝</item>
+        <item>V5</item>
+    </string-array>
+    
+    <string-array name="bodylevel">
+        <item>两厢2座</item>
+        <item>两厢4座</item>
+        <item>两厢5座</item>
+        <item>两厢6座</item>
+        <item>两厢7座</item>
+        <item>三厢2座</item>
+        <item>三厢4座</item>
+        <item>三厢5座</item>
+    </string-array>
+
+    <string-array name="profession">
+        <item>通用岗位</item>
+        <item>销售</item>
+        <item>市场</item>
+        <item>人力资源</item>
+        <item>行政</item>
+        <item>公关</item>
+        <item>客服</item>
+        <item>采购</item>
+
+        <item>技工</item>
+        <item>公司职员</item>
+        <item>职业经理人</item>
+        <item>丝营企业主</item>
+        <item>中层管理者</item>
+        <item>自由职业者</item>
+        <item>IT互联网</item>
+        <item>开发工程师</item>
+
+        <item>测试工程师</item>
+        <item>设计师</item>
+        <item>运营师</item>
+        <item>产品经理</item>
+        <item>风控安全</item>
+        <item>个体/网店</item>
+        <item>文化传媒</item>
+        <item>编辑策划</item>
+
+        <item>记者</item>
+        <item>艺人</item>
+        <item>经纪人</item>
+        <item>媒体工作者</item>
+        <item>金融</item>
+        <item>咨询</item>
+        <item>投行</item>
+        <item>保险</item>
+
+        <item>金融分析</item>
+        <item>财务</item>
+        <item>风险管理</item>
+        <item>风险投资人</item>
+        <item>教育培训</item>
+        <item>学生</item>
+        <item>留学生</item>
+        <item>大学生</item>
+
+
+        <item>研究生</item>
+        <item>博士</item>
+        <item>科研人员</item>
+        <item>教师</item>
+        <item>医疗生物</item>
+        <item>医生</item>
+        <item>护士</item>
+        <item>宠物医生</item>
+
+        <item>医学研究</item>
+        <item>政府组织</item>
+        <item>公务员</item>
+        <item>事业单位</item>
+        <item>军人</item>
+        <item>律师</item>
+        <item>警察</item>
+        <item>国企工作者</item>
+        <item>运动员</item>
+
+        <item>工业制造</item>
+        <item>技术研发</item>
+        <item>技工</item>
+        <item>质检</item>
+        <item>建筑工人</item>
+        <item>维修工人</item>
+        <item>建筑设计师</item>
+        <item>餐饮出行</item>
+
+
+        <item>厨师</item>
+        <item>服务员</item>
+        <item>收银</item>
+        <item>导购</item>
+        <item>保安</item>
+        <item>乘务人员</item>
+        <item>驾驶员</item>
+        <item>航空人员</item>
+        <item>空乘</item>
+
+        <item>服务业</item>
+        <item>导游</item>
+        <item>快递员</item>
+        <item>美容美发</item>
+        <item>家政服务</item>
+        <item>婚庆摄影</item>
+        <item>运动健身</item>
+        <item>其他</item>
+        <item>其他</item>
+
+    </string-array>
+
+</resources>

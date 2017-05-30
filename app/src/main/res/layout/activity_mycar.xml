@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/mycarhead"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#0775e0">
+        <ImageButton
+            android:id="@+id/mycarback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@color/transparent"
+            android:src="@drawable/back_clicked"
+            android:enabled="true"/>
+        <View
+            android:id="@+id/imcarline"
+            android:layout_width="1px"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/mycarback"
+            android:layout_marginLeft="8dp"
+            android:background="#FFFFFF"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="我的车辆"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/imcarline"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/mycar"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/csy_form"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/csy_pd"
+        android:layout_below="@id/mycarhead"
+        android:padding="1.0dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/addcar_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/state_addcar"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/addcar_img"
+            android:text="请添加车辆"
+            android:textColor="#0775e0"
+            android:textSize="18dp"
+            android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+    <ListView
+        android:id="@+id/result_mycar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5.0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/mycarhead"
+        android:divider="@null" />
+    <RelativeLayout
+        android:id="@+id/addcar_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/result_mycar"
+        android:visibility="gone"
+        >
+
+        <ImageView
+            android:id="@+id/addcar_photo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/state_addcar"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/loading_rl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/image_querycar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/querycar"
+            android:layout_centerHorizontal="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image_querycar"
+            android:layout_marginTop="15dp"
+            android:textSize="18dp"
+            android:text="正在加载车辆信息"/>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

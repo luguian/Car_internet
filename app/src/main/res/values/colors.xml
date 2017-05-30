@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0775e0</color>
+    <color name="colorPrimaryDark">#0775e0</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorRipple">#803f51b5</color>
+    <color name="colorBlue">#330775e0</color>
+    <!-- 灰色 -->
+    <color name="bg_Gray">#CCCCCC</color>
+    <!--浅灰色-->
+    <color name="view_bg">#66CCCCCC</color>
+    <color name="csy_bg_body">#ffe9e9e9</color>
+    <color name="csy_row_on">#fff0f0f0</color>
+    <color name="csy_border">#ffd0d0d0</color>
+    <color name="csy_green">#ff3caa0f</color>
+    <color name="csy_green_on">#ff28780a</color>
+    <color name="csy_blue">#0775e0</color>
+    <color name="csy_blue_on">#0775e0</color>
+    <color name="csy_label">#ff969696</color>
+    <color name="csy_text">#ff555555</color>
+    <color name="csy_hint">#ffc6c6c6</color>
+
+    <color name="grey"> #ebebeb</color>
+    <color name="black"> #000000</color>
+    <color name="darkgrey"> #C0C0C0</color>
+    <color name="white"> #FFFFFF</color>
+    <color name="red"> #FF0000</color>
+    <color name="darkyellow"> #FFCC33</color>
+    <color name="gary">#898989</color>
+    <drawable name="transparent">#00000000</drawable>
+    <color name="transparent">#00000000</color>
+    <color name="secondary_text">#727272</color>
+    <color name="primary_text">#212121</color>
+    <color name="primary">#F44336</color>
+    <color name="primary_dark">#D32F2F</color>
+    <color name="primary_light">#FFCDD2</color>
+    <color name="accent">#CDDC39</color>
+    <color name="partTranslucent">#39000000</color>
+    <color name="black_80">#80000000</color>
+    <color name="car_messagebg">#800775e0</color>
+    <color name="list_divider_line">#e7e7e7</color>
+
+    <color name="none_color">#00000000</color>
+    <color name="bule_overlay">#660D92DD</color>
+</resources>

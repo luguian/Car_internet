@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+
+    <AutoCompleteTextView
+        android:id="@+id/search_edit"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="请输入要搜索的位置"
+        android:drawableLeft="@drawable/search_input"
+        android:background="@android:color/transparent"
+        />
+        <Button
+            android:layout_alignBottom="@id/search_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_shape"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/search_for_place"
+            android:text="确定"
+            android:layout_marginRight="10dp"
+            />
+
+
+    <ListView
+        android:id="@+id/search_list"
+        android:layout_below="@id/search_edit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+    </RelativeLayout>
+</LinearLayout>

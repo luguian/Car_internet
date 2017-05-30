@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/carmessagehead"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#0775e0">
+        <ImageButton
+            android:id="@+id/imcarback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@color/transparent"
+            android:src="@drawable/back_clicked"
+            android:enabled="true"/>
+        <View
+            android:id="@+id/imcarline"
+            android:layout_width="1px"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/imcarback"
+            android:layout_marginLeft="8dp"
+            android:background="#FFFFFF"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="车辆信息"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/imcarline"/>
+        </RelativeLayout>
+    <View
+        android:id="@+id/personal_bg_view"
+        android:layout_below="@id/carmessagehead"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/view_bg"/>
+    <RelativeLayout
+        android:id="@+id/car_messagebrandrl"
+        android:layout_below="@id/personal_bg_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="品牌"
+            android:layout_centerVertical="true"
+            android:textSize="18dp"
+            android:textColor="#BF000000"
+            />
+
+        <ImageView
+            android:id="@+id/car_brandmessage_photo"
+            android:layout_width="77dp"
+            android:layout_height="77dp"
+            android:layout_marginTop="8dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/default_photo" />
+
+        <View
+            android:layout_below="@id/car_brandmessage_photo"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:background="@color/view_bg"/>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/car_messageflagrl"
+        android:layout_below="@id/car_messagebrandrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="13dp"
+            android:text="标志"
+            android:layout_centerVertical="true"
+            android:textSize="18dp"
+            android:textColor="#BF000000"
+            />
+
+        <TextView
+            android:id="@+id/car_flagmessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="13dp"
+            android:layout_marginRight="8dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/darkgrey"
+            android:text="123"
+
+         />
+
+        <View
+
+            android:layout_below="@id/car_flagmessage"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:background="@color/view_bg"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/car_messagetyperl"
+        android:layout_below="@id/car_messageflagrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="13dp"
+            android:text="型号"
+            android:layout_centerVertical="true"
+            android:textSize="18dp"
+            android:textColor="#BF000000"
+            />
+
+        <TextView
+            android:id="@+id/car_typemessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="13dp"
+            android:layout_marginRight="8dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/darkgrey"
+            android:text="123"
+
+            />
+
+        <View
+            android:layout_below="@id/car_typemessage"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:background="@color/view_bg"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/car_messagebodylevelrl"
+        android:layout_below="@id/car_messagetyperl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="13dp"
+            android:text="车身级别"
+            android:layout_centerVertical="true"
+            android:textSize="18dp"
+            android:textColor="#BF000000"
+            />
+
+        <TextView
+            android:id="@+id/car_bodylevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="13dp"
+            android:layout_marginRight="8dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/darkgrey"
+            android:text="123"
+
+            />
+
+        <View
+            android:layout_below="@id/car_bodylevel"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:background="@color/view_bg"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/car_messagenumberrl"
+        android:layout_below="@id/car_messagebodylevelrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="13dp"
+            android:text="车牌号码"
+            android:layout_centerVertical="true"
+            android:textSize="18dp"
+            android:textColor="#BF000000"
+            />
+
+        <TextView
+            android:id="@+id/car_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="13dp"
+            android:layout_marginRight="8dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/darkgrey"
+            android:text="123"
+
+            />
+
+        <View
+            android:layout_below="@id/car_number"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:background="@color/view_bg"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/car_messagemotornumberrl"
+        android:layout_below="@id/car_messagenumberrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="13dp"
+            android:text="发动机号码"
+            android:layout_centerVertical="true"
+            android:textSize="18dp"
+            android:textColor="#BF000000"
+            />
+
+        <TextView
+            android:id="@+id/car_motornumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="13dp"
+            android:layout_marginRight="8dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/darkgrey"
+            android:text="123"
+
+            />
+
+        <View
+            android:layout_below="@id/car_motornumber"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/view_bg"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/car_updatemessagerl"
+        android:layout_below="@id/car_messagemotornumberrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:background="@drawable/bg_clicked">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="13dp"
+            android:text="修改车辆信息"
+            android:layout_centerVertical="true"
+            android:textSize="18dp"
+            android:textColor="#BF000000"
+            />
+
+        <ImageView
+            android:id="@+id/car_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="13dp"
+            android:layout_marginRight="8dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/update_carmessage"
+
+            />
+
+        <View
+            android:layout_below="@id/car_update"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:background="@color/view_bg"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/querycardetailmessagerl"
+        android:layout_below="@id/car_updatemessagerl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_clicked"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="13dp"
+            android:text="维护车辆信息"
+            android:layout_centerVertical="true"
+            android:textSize="18dp"
+            android:textColor="#BF000000"
+            />
+
+        <ImageView
+            android:id="@+id/car_maintained"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="13dp"
+            android:layout_marginRight="8dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/update_carmessage"
+
+            />
+
+        <View
+            android:layout_below="@id/car_maintained"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:background="@color/view_bg"/>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/confimaddcar_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="确认"
+        android:layout_below="@+id/car_messagemotornumberrl"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_shape"
+       />
+
+</RelativeLayout >

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:windowSoftInputMode="adjustResize" >
+
+    <ImageView
+        android:id="@+id/carnet_im"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/carinternet" />
+    <LinearLayout
+        android:id="@+id/register_form"
+        android:layout_below="@id/carnet_im"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/csy_form"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/csy_pd"
+        android:padding="1.0dp" >
+
+    <RelativeLayout
+        android:id="@+id/register_account_rl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/carnet_im"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:paddingTop="40dp" >
+
+        <ImageView
+            android:id="@+id/register_accountIm"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/account" />
+
+        <EditText
+            android:id="@+id/register_edit_account"
+            android:layout_width="160dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/register_accountIm"
+            android:background="#00000000"
+            android:hint="手机号"
+            android:inputType="text"
+            android:textColor="#000000"
+            android:textColorHint="#BEBEBE"
+            android:textSize="16sp" >
+        </EditText>
+
+        <View
+            android:id="@+id/register_view_line"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/register_edit_account"
+            android:layout_marginTop="6dp"
+            android:background="#CC1E90FF" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/register_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/register_account_rl"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp" >
+
+        <ImageView
+            android:id="@+id/register_passwordIm"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/password" />
+
+        <EditText
+            android:id="@+id/register_edit_password"
+            android:layout_width="160dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/register_passwordIm"
+            android:background="#00000000"
+            android:hint="请填写密码"
+            android:inputType="textPassword"
+            android:textColor="#000000"
+            android:textColorHint="#BEBEBE"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/register_btn_clear_password"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_above="@+id/register_password_line"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_x_circle_white"
+            android:contentDescription="@string/app_name"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/register_password_line"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/register_edit_password"
+            android:layout_marginTop="6dp"
+            android:background="#CC1E90FF" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/register_passwordcf_rl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp" >
+
+        <ImageView
+            android:id="@+id/register_passwordcf"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/passwordconfim" />
+
+        <EditText
+            android:id="@+id/register_edit_passwordcf"
+            android:layout_width="160dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/register_passwordcf"
+            android:background="#00000000"
+            android:hint="再一次填写确认密码"
+            android:inputType="textPassword"
+            android:textColor="#000000"
+            android:textColorHint="#BEBEBE"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/register_btn_clear_passwordcf"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_above="@+id/register_passwordcf_line"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_x_circle_white"
+            android:contentDescription="@string/app_name"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/register_passwordcf_line"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/register_edit_passwordcf"
+            android:layout_marginTop="6dp"
+            android:background="#CC1E90FF" />
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/register_code_rl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/register_passwordcf_rl"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="20dp" >
+
+            <ImageView
+                android:id="@+id/register_code"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/code" />
+
+            <EditText
+                android:id="@+id/register_edit_code"
+                android:layout_width="160dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/register_code"
+                android:background="#00000000"
+                android:hint="请填写验证码"
+                android:inputType="textPassword"
+                android:textColor="#000000"
+                android:textColorHint="#BEBEBE"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/register_vc_image"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/register_code_line"
+                android:layout_alignParentRight="true"
+                android:src="@mipmap/ic_launcher"
+                 />
+
+            <View
+                android:id="@+id/register_code_line"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/register_code"
+                android:layout_marginTop="6dp"
+                android:background="#CC1E90FF" />
+        </RelativeLayout>
+
+
+        <Button
+            android:id="@+id/carinternet_register_btn"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/register_passwordcf_rl"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_shape"
+            android:enabled="false"
+            android:text="注册"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+  </LinearLayout>
+    <TextView
+        android:id="@+id/register_agreement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/register_form"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="注册代表你同意车联网用户协议"
+        android:textColor="#7B7B7B" />
+</RelativeLayout>

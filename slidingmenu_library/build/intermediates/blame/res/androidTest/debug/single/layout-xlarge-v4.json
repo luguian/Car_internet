@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\android_stdioworkspace\\CAR_internet\\slidingmenu_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-xlarge-v4\\abs__screen_action_bar.xml",
+        "source": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\layout-xlarge-v4\\abs__screen_action_bar.xml"
+    },
+    {
+        "merged": "E:\\android_stdioworkspace\\CAR_internet\\slidingmenu_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-xlarge-v4\\abs__screen_action_bar_overlay.xml",
+        "source": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\layout-xlarge-v4\\abs__screen_action_bar_overlay.xml"
+    }
+]

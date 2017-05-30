@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/view_bg">
+    <RelativeLayout
+        android:id="@+id/myordergasolinehead"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#0775e0">
+        <ImageButton
+            android:id="@+id/myorderback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@color/transparent"
+            android:src="@drawable/back_clicked"
+            android:enabled="true"/>
+        <View
+            android:id="@+id/imcarline"
+            android:layout_width="1px"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/myorderback"
+            android:layout_marginLeft="8dp"
+            android:background="#FFFFFF"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="我的订单"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/imcarline"/>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/result_myordergasoline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5.0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/myordergasolinehead"
+        android:background="#FFFFFF"
+        android:divider="@color/view_bg"
+        android:dividerHeight="10dp"/>
+
+
+    <TextView
+        android:id="@+id/not_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:layout_gravity="center_horizontal"
+        android:text="没有订单,请下单"
+        android:textSize="24dp"
+        android:visibility="gone"/>
+
+</LinearLayout>

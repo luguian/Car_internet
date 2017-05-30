@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:id="@+id/ll_subjectOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="科目一（理论考试）"
+            android:textSize="20dp"
+            />
+    </RelativeLayout>
+
+    <View
+
+        android:layout_below="@id/personalbg_rl"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="1dp"
+        android:background="@color/view_bg"/>
+
+
+    <RelativeLayout
+        android:id="@+id/ll_subjectTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+     >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="科目二（小路考）"
+            android:textSize="20dp"
+           />
+    </RelativeLayout>
+
+    <View
+
+        android:layout_below="@id/personalbg_rl"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="1dp"
+        android:background="@color/view_bg"/>
+
+    <RelativeLayout
+        android:id="@+id/ll_subjectThree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="科目三（大路考）"
+            android:textSize="20dp"
+           />
+    </RelativeLayout>
+
+    <View
+
+        android:layout_below="@id/personalbg_rl"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="1dp"
+        android:background="@color/view_bg"/>
+
+    <RelativeLayout
+        android:id="@+id/ll_subjectFour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:text="科目四（理论考试）"
+             />
+    </RelativeLayout>
+
+    <View
+
+        android:layout_below="@id/personalbg_rl"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="1dp"
+        android:background="@color/view_bg"/>
+
+    <RelativeLayout
+        android:id="@+id/ll_exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="返回"
+            android:textSize="20dp"
+            />
+    </RelativeLayout>
+
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_height="1dp"
+        android:background="@color/view_bg"/>
+
+</LinearLayout>

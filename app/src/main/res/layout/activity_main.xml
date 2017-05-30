@@ -1,0 +1,202 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:windowSoftInputMode="adjustResize"
+     >
+
+    <!-- LOGO -->
+    <RelativeLayout
+        android:id="@+id/more_carnet_rl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+    
+    <TextView
+        android:id="@+id/more_carnet_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="更多"
+        android:textSize="18dp"
+        android:background="#ffffff"
+        android:textColor="#CC1E90FF"
+        android:paddingTop="16dp"
+        android:paddingRight="12dp"
+        android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:contentDescription="@string/app_name" />
+
+    <ImageView
+        android:id="@+id/login_img_progress"
+        android:layout_width="77dp"
+        android:layout_height="77dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="135dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/loading_1"
+        android:visibility="gone" />
+
+      <ImageView
+        android:id="@+id/login_img_photo"
+        android:layout_width="77dp"
+        android:layout_height="77dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/login_edit_username"
+        android:layout_marginBottom="30dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        android:src="@drawable/default_photo" />
+
+    <!-- 中间的白线，滑动轨道 -->
+
+    <View
+        android:id="@+id/login_view_line"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="45dp"
+        android:layout_alignRight="@+id/Scroll_login_btn"    
+        android:background="#CC1E90FF" />
+
+    <!-- 滑动的图标 -->
+
+    <ImageView
+        android:id="@+id/login_img_slide"
+        android:layout_width="31dp"
+        android:layout_height="31dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_ask_circle" />
+
+    <!-- 用户名输入控件 -->
+
+    <EditText
+        android:id="@+id/login_edit_username"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_above="@id/login_view_line"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="4dp"
+        android:background="#00000000"
+        android:hint="手机号"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:textColorHint="#BEBEBE"
+        android:textSize="16sp" >
+        <requestFocus />
+    </EditText>
+
+    <!-- 用户名输入控件清空按钮 -->
+
+    <Button
+        android:id="@+id/login_btn_clear_username"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_above="@id/login_view_line"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="7dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/ic_x_circle_white"
+        android:contentDescription="@string/app_name"
+        android:visibility="gone" />
+
+    <!-- 密码输入控件 -->
+
+    <EditText
+        android:id="@+id/login_edit_password"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/login_view_line"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:background="#00000000"
+        android:hint="密码"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:textColorHint="#BEBEBE"
+        android:textSize="16sp" />
+
+    <!-- 密码输入控件清空按钮 -->
+
+    <Button
+        android:id="@+id/login_btn_clear_password"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/login_view_line"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/ic_x_circle_white"
+        android:contentDescription="@string/app_name"
+        android:visibility="gone" />
+
+        
+    <Button
+        android:id="@+id/carinternet_login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="登录"
+        android:layout_below="@+id/login_edit_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_shape"
+        android:enabled="false"/>
+
+    <ScrollView
+        android:id="@+id/Scroll_login_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:fillViewport="true"
+        android:layout_below="@+id/carinternet_login_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:scrollbars="vertical|none">
+        </ScrollView>
+         
+   <RelativeLayout 
+       android:layout_width="match_parent"
+       android:layout_height="32dp"
+       android:layout_below="@id/carinternet_login_btn"
+       android:layout_marginTop="100dp"     
+       android:layout_centerHorizontal="true">
+  <View
+        android:id="@+id/spin_line_loginleft"
+        android:layout_width="40dp"
+        android:layout_height="1dp"
+        android:background="#59BEBEBE" 
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="4dp"
+        android:layout_toLeftOf="@+id/qq_carnet_login"
+        />
+  <ImageView
+        android:id="@+id/qq_carnet_login"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/qq"
+        android:layout_centerInParent="true"/> 
+    <View
+        android:id="@+id/spin_line_loginright"
+        android:layout_width="40dp"
+        android:layout_height="1dp"
+        android:background="#59BEBEBE" 
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="4dp"
+        android:layout_toRightOf="@+id/qq_carnet_login"
+        />
+  </RelativeLayout>
+</RelativeLayout>

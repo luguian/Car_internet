@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/addorder_gasoline"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/order_gasoline"/>
+
+        <TextView
+            android:id="@+id/gasoline_name"
+            android:layout_toRightOf="@id/addorder_gasoline"
+            android:layout_alignTop="@+id/addorder_gasoline"
+            android:layout_marginLeft="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="中石化东洲加油站"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/gasoline_address"
+            android:layout_toRightOf="@id/addorder_gasoline"
+            android:layout_alignBottom="@+id/addorder_gasoline"
+            android:layout_marginLeft="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="中石化东洲加油站"
+            />
+
+        <Button
+            android:id="@+id/commit_order"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/addorder_gasoline"
+            android:layout_alignBottom="@+id/addorder_gasoline"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button_shape"
+            android:text="预约"
+            android:textColor="#FFFFFF"/>
+    </RelativeLayout>
+
+</LinearLayout>

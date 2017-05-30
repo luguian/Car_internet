@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:gravity = "center"
+   >
+    <ImageView
+        android:id="@+id/other_login" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" 
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/tip"
+        />
+     <RelativeLayout 
+        android:id="@+id/car_register_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/other_login"
+        android:background="@drawable/bg_clicked"
+
+        >
+
+       <TextView
+        android:id="@+id/login_qq_btn"         
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="注册" 
+        android:textSize="16sp"
+        android:textColor="#000000"/>
+
+    </RelativeLayout>
+     <View
+        android:id="@+id/spin_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/car_register_rl"
+        android:background="#59BEBEBE" />
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/car_help_rl" 
+         android:layout_below="@+id/spin_line"
+         android:gravity="center"
+         android:background="@drawable/bg_clicked">
+         <TextView      
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:paddingTop="10dp"
+        android:textSize="16sp"
+        android:paddingBottom="10dp"
+        android:text="帮助"/>
+        
+     </RelativeLayout>
+
+</RelativeLayout >

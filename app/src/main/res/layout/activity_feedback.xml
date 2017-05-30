@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/csy_bg_body"
+    >
+    <include android:id="@+id/titbar" layout="@layout/csy_titlebar" />
+    <!-- 查询表单 -->
+    <LinearLayout
+        android:id="@+id/feedback_edit"
+        android:layout_below="@id/titbar"
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/csy_form"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/csy_pd"
+        android:padding="1.0dp" >
+
+        <EditText
+            android:id="@+id/feedback_value"
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:hint="请填写意见"
+            android:textColor="#80000000"
+            android:gravity="left"/>
+        </LinearLayout>
+    <LinearLayout
+        android:id="@+id/contact_tv"
+        android:layout_below="@id/feedback_edit"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/contact_form"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/csy_pd"
+        android:padding="1.0dp" >
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="联系方式"
+            android:textColor="#D9000000"/>
+
+        <EditText
+            android:id="@+id/contact_et"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:textSize="14dp"
+            android:textColor="#4D000000"
+            android:hint="请填写联系方式"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/commit_feedback"
+        android:layout_below="@+id/contact_tv"
+        android:layout_margin="@dimen/csy_pd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_shape"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:text="提交"
+        android:enabled="false"/>
+
+</RelativeLayout>

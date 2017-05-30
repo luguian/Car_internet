@@ -1,0 +1,1183 @@
+[
+    {
+        "outputFile": "E:\\android_stdioworkspace\\CAR_internet\\slidingmenu_library\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 3,
+                    "endColumn": 12,
+                    "endOffset": 127
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 3,
+                        "endColumn": 12,
+                        "endOffset": 127
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 132,
+                    "endLine": 15,
+                    "endColumn": 12,
+                    "endOffset": 909
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 132,
+                        "endLine": 15,
+                        "endColumn": 12,
+                        "endOffset": 909
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 914,
+                    "endLine": 17,
+                    "endColumn": 12,
+                    "endOffset": 998
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 914,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 998
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1003,
+                    "endLine": 19,
+                    "endColumn": 12,
+                    "endOffset": 1143
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1003,
+                        "endLine": 19,
+                        "endColumn": 12,
+                        "endOffset": 1143
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1148,
+                    "endLine": 21,
+                    "endColumn": 12,
+                    "endOffset": 1288
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1148,
+                        "endLine": 21,
+                        "endColumn": 12,
+                        "endOffset": 1288
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1293,
+                    "endLine": 23,
+                    "endColumn": 12,
+                    "endOffset": 1425
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1293,
+                        "endLine": 23,
+                        "endColumn": 12,
+                        "endOffset": 1425
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1430,
+                    "endLine": 25,
+                    "endColumn": 12,
+                    "endOffset": 1570
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1430,
+                        "endLine": 25,
+                        "endColumn": 12,
+                        "endOffset": 1570
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1575,
+                    "endLine": 27,
+                    "endColumn": 12,
+                    "endOffset": 1731
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1575,
+                        "endLine": 27,
+                        "endColumn": 12,
+                        "endOffset": 1731
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1736,
+                    "endLine": 29,
+                    "endColumn": 12,
+                    "endOffset": 1870
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1736,
+                        "endLine": 29,
+                        "endColumn": 12,
+                        "endOffset": 1870
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1875,
+                    "endLine": 31,
+                    "endColumn": 12,
+                    "endOffset": 2025
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 1875,
+                        "endLine": 31,
+                        "endColumn": 12,
+                        "endOffset": 2025
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 2030,
+                    "endLine": 33,
+                    "endColumn": 12,
+                    "endOffset": 2172
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 2030,
+                        "endLine": 33,
+                        "endColumn": 12,
+                        "endOffset": 2172
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 2177,
+                    "endLine": 35,
+                    "endColumn": 12,
+                    "endOffset": 2335
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 2177,
+                        "endLine": 35,
+                        "endColumn": 12,
+                        "endOffset": 2335
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 2340,
+                    "endLine": 37,
+                    "endColumn": 12,
+                    "endOffset": 2476
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 4,
+                        "startOffset": 2340,
+                        "endLine": 37,
+                        "endColumn": 12,
+                        "endOffset": 2476
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 2481,
+                    "endLine": 39,
+                    "endColumn": 12,
+                    "endOffset": 2633
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 4,
+                        "startOffset": 2481,
+                        "endLine": 39,
+                        "endColumn": 12,
+                        "endOffset": 2633
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 2638,
+                    "endLine": 41,
+                    "endColumn": 12,
+                    "endOffset": 2760
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 4,
+                        "startOffset": 2638,
+                        "endLine": 41,
+                        "endColumn": 12,
+                        "endOffset": 2760
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 2765,
+                    "endLine": 43,
+                    "endColumn": 12,
+                    "endOffset": 2899
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 4,
+                        "startOffset": 2765,
+                        "endLine": 43,
+                        "endColumn": 12,
+                        "endOffset": 2899
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 2904,
+                    "endLine": 45,
+                    "endColumn": 12,
+                    "endOffset": 3038
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 4,
+                        "startOffset": 2904,
+                        "endLine": 45,
+                        "endColumn": 12,
+                        "endOffset": 3038
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 3043,
+                    "endLine": 49,
+                    "endColumn": 12,
+                    "endOffset": 3212
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 4,
+                        "startOffset": 3043,
+                        "endLine": 49,
+                        "endColumn": 12,
+                        "endOffset": 3212
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 3217,
+                    "endLine": 53,
+                    "endColumn": 12,
+                    "endOffset": 3380
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 4,
+                        "startOffset": 3217,
+                        "endLine": 53,
+                        "endColumn": 12,
+                        "endOffset": 3380
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 3385,
+                    "endLine": 55,
+                    "endColumn": 12,
+                    "endOffset": 3477
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 4,
+                        "startOffset": 3385,
+                        "endLine": 55,
+                        "endColumn": 12,
+                        "endOffset": 3477
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 3482,
+                    "endLine": 57,
+                    "endColumn": 12,
+                    "endOffset": 3586
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 4,
+                        "startOffset": 3482,
+                        "endLine": 57,
+                        "endColumn": 12,
+                        "endOffset": 3586
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 3591,
+                    "endLine": 59,
+                    "endColumn": 12,
+                    "endOffset": 3697
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 58,
+                        "startColumn": 4,
+                        "startOffset": 3591,
+                        "endLine": 59,
+                        "endColumn": 12,
+                        "endOffset": 3697
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 60,
+                    "startColumn": 4,
+                    "startOffset": 3702,
+                    "endLine": 61,
+                    "endColumn": 12,
+                    "endOffset": 3810
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 60,
+                        "startColumn": 4,
+                        "startOffset": 3702,
+                        "endLine": 61,
+                        "endColumn": 12,
+                        "endOffset": 3810
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 62,
+                    "startColumn": 4,
+                    "startOffset": 3815,
+                    "endLine": 63,
+                    "endColumn": 12,
+                    "endOffset": 3923
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 62,
+                        "startColumn": 4,
+                        "startOffset": 3815,
+                        "endLine": 63,
+                        "endColumn": 12,
+                        "endOffset": 3923
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 64,
+                    "startColumn": 4,
+                    "startOffset": 3928,
+                    "endLine": 65,
+                    "endColumn": 12,
+                    "endOffset": 4026
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 64,
+                        "startColumn": 4,
+                        "startOffset": 3928,
+                        "endLine": 65,
+                        "endColumn": 12,
+                        "endOffset": 4026
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 66,
+                    "startColumn": 4,
+                    "startOffset": 4031,
+                    "endLine": 67,
+                    "endColumn": 12,
+                    "endOffset": 4149
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 66,
+                        "startColumn": 4,
+                        "startOffset": 4031,
+                        "endLine": 67,
+                        "endColumn": 12,
+                        "endOffset": 4149
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 68,
+                    "startColumn": 4,
+                    "startOffset": 4154,
+                    "endLine": 69,
+                    "endColumn": 12,
+                    "endOffset": 4270
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 68,
+                        "startColumn": 4,
+                        "startOffset": 4154,
+                        "endLine": 69,
+                        "endColumn": 12,
+                        "endOffset": 4270
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 70,
+                    "startColumn": 4,
+                    "startOffset": 4275,
+                    "endLine": 71,
+                    "endColumn": 12,
+                    "endOffset": 4369
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 70,
+                        "startColumn": 4,
+                        "startOffset": 4275,
+                        "endLine": 71,
+                        "endColumn": 12,
+                        "endOffset": 4369
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 72,
+                    "startColumn": 4,
+                    "startOffset": 4374,
+                    "endLine": 73,
+                    "endColumn": 12,
+                    "endOffset": 4478
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 72,
+                        "startColumn": 4,
+                        "startOffset": 4374,
+                        "endLine": 73,
+                        "endColumn": 12,
+                        "endOffset": 4478
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 74,
+                    "startColumn": 4,
+                    "startOffset": 4483,
+                    "endLine": 75,
+                    "endColumn": 12,
+                    "endOffset": 4599
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 74,
+                        "startColumn": 4,
+                        "startOffset": 4483,
+                        "endLine": 75,
+                        "endColumn": 12,
+                        "endOffset": 4599
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 76,
+                    "startColumn": 4,
+                    "startOffset": 4604,
+                    "endLine": 77,
+                    "endColumn": 12,
+                    "endOffset": 4736
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 76,
+                        "startColumn": 4,
+                        "startOffset": 4604,
+                        "endLine": 77,
+                        "endColumn": 12,
+                        "endOffset": 4736
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 78,
+                    "startColumn": 4,
+                    "startOffset": 4741,
+                    "endLine": 79,
+                    "endColumn": 12,
+                    "endOffset": 4859
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 78,
+                        "startColumn": 4,
+                        "startOffset": 4741,
+                        "endLine": 79,
+                        "endColumn": 12,
+                        "endOffset": 4859
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 80,
+                    "startColumn": 4,
+                    "startOffset": 4864,
+                    "endLine": 81,
+                    "endColumn": 12,
+                    "endOffset": 4998
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 80,
+                        "startColumn": 4,
+                        "startOffset": 4864,
+                        "endLine": 81,
+                        "endColumn": 12,
+                        "endOffset": 4998
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 82,
+                    "startColumn": 4,
+                    "startOffset": 5003,
+                    "endLine": 83,
+                    "endColumn": 12,
+                    "endOffset": 5123
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 82,
+                        "startColumn": 4,
+                        "startOffset": 5003,
+                        "endLine": 83,
+                        "endColumn": 12,
+                        "endOffset": 5123
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 84,
+                    "startColumn": 4,
+                    "startOffset": 5128,
+                    "endLine": 85,
+                    "endColumn": 12,
+                    "endOffset": 5264
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 84,
+                        "startColumn": 4,
+                        "startOffset": 5128,
+                        "endLine": 85,
+                        "endColumn": 12,
+                        "endOffset": 5264
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 86,
+                    "startColumn": 4,
+                    "startOffset": 5269,
+                    "endLine": 87,
+                    "endColumn": 12,
+                    "endOffset": 5389
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 86,
+                        "startColumn": 4,
+                        "startOffset": 5269,
+                        "endLine": 87,
+                        "endColumn": 12,
+                        "endOffset": 5389
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 88,
+                    "startColumn": 4,
+                    "startOffset": 5394,
+                    "endLine": 89,
+                    "endColumn": 12,
+                    "endOffset": 5530
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 88,
+                        "startColumn": 4,
+                        "startOffset": 5394,
+                        "endLine": 89,
+                        "endColumn": 12,
+                        "endOffset": 5530
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 90,
+                    "startColumn": 4,
+                    "startOffset": 5535,
+                    "endLine": 91,
+                    "endColumn": 12,
+                    "endOffset": 5645
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 90,
+                        "startColumn": 4,
+                        "startOffset": 5535,
+                        "endLine": 91,
+                        "endColumn": 12,
+                        "endOffset": 5645
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 92,
+                    "startColumn": 4,
+                    "startOffset": 5650,
+                    "endLine": 93,
+                    "endColumn": 12,
+                    "endOffset": 5780
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 92,
+                        "startColumn": 4,
+                        "startOffset": 5650,
+                        "endLine": 93,
+                        "endColumn": 12,
+                        "endOffset": 5780
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 94,
+                    "startColumn": 4,
+                    "startOffset": 5785,
+                    "endLine": 95,
+                    "endColumn": 12,
+                    "endOffset": 5913
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 94,
+                        "startColumn": 4,
+                        "startOffset": 5785,
+                        "endLine": 95,
+                        "endColumn": 12,
+                        "endOffset": 5913
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 96,
+                    "startColumn": 4,
+                    "startOffset": 5918,
+                    "endLine": 97,
+                    "endColumn": 12,
+                    "endOffset": 6024
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 96,
+                        "startColumn": 4,
+                        "startOffset": 5918,
+                        "endLine": 97,
+                        "endColumn": 12,
+                        "endOffset": 6024
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 98,
+                    "startColumn": 4,
+                    "startOffset": 6029,
+                    "endLine": 99,
+                    "endColumn": 12,
+                    "endOffset": 6151
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 98,
+                        "startColumn": 4,
+                        "startOffset": 6029,
+                        "endLine": 99,
+                        "endColumn": 12,
+                        "endOffset": 6151
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 100,
+                    "startColumn": 4,
+                    "startOffset": 6156,
+                    "endLine": 101,
+                    "endColumn": 12,
+                    "endOffset": 6276
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 100,
+                        "startColumn": 4,
+                        "startOffset": 6156,
+                        "endLine": 101,
+                        "endColumn": 12,
+                        "endOffset": 6276
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 102,
+                    "startColumn": 4,
+                    "startOffset": 6281,
+                    "endLine": 103,
+                    "endColumn": 12,
+                    "endOffset": 6385
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 102,
+                        "startColumn": 4,
+                        "startOffset": 6281,
+                        "endLine": 103,
+                        "endColumn": 12,
+                        "endOffset": 6385
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 104,
+                    "startColumn": 4,
+                    "startOffset": 6390,
+                    "endLine": 105,
+                    "endColumn": 12,
+                    "endOffset": 6509
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 104,
+                        "startColumn": 4,
+                        "startOffset": 6390,
+                        "endLine": 105,
+                        "endColumn": 12,
+                        "endOffset": 6509
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 106,
+                    "startColumn": 4,
+                    "startOffset": 6514,
+                    "endLine": 107,
+                    "endColumn": 12,
+                    "endOffset": 6622
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 106,
+                        "startColumn": 4,
+                        "startOffset": 6514,
+                        "endLine": 107,
+                        "endColumn": 12,
+                        "endOffset": 6622
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 108,
+                    "startColumn": 4,
+                    "startOffset": 6627,
+                    "endLine": 109,
+                    "endColumn": 12,
+                    "endOffset": 6757
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 108,
+                        "startColumn": 4,
+                        "startOffset": 6627,
+                        "endLine": 109,
+                        "endColumn": 12,
+                        "endOffset": 6757
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 110,
+                    "startColumn": 4,
+                    "startOffset": 6762,
+                    "endLine": 111,
+                    "endColumn": 12,
+                    "endOffset": 6894
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 110,
+                        "startColumn": 4,
+                        "startOffset": 6762,
+                        "endLine": 111,
+                        "endColumn": 12,
+                        "endOffset": 6894
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 112,
+                    "startColumn": 4,
+                    "startOffset": 6899,
+                    "endLine": 113,
+                    "endColumn": 12,
+                    "endOffset": 7018
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 112,
+                        "startColumn": 4,
+                        "startOffset": 6899,
+                        "endLine": 113,
+                        "endColumn": 12,
+                        "endOffset": 7018
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 114,
+                    "startColumn": 4,
+                    "startOffset": 7023,
+                    "endLine": 115,
+                    "endColumn": 12,
+                    "endOffset": 7131
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 114,
+                        "startColumn": 4,
+                        "startOffset": 7023,
+                        "endLine": 115,
+                        "endColumn": 12,
+                        "endOffset": 7131
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 116,
+                    "startColumn": 4,
+                    "startOffset": 7136,
+                    "endLine": 117,
+                    "endColumn": 12,
+                    "endOffset": 7228
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 116,
+                        "startColumn": 4,
+                        "startOffset": 7136,
+                        "endLine": 117,
+                        "endColumn": 12,
+                        "endOffset": 7228
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 118,
+                    "startColumn": 4,
+                    "startOffset": 7233,
+                    "endLine": 119,
+                    "endColumn": 12,
+                    "endOffset": 7340
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 118,
+                        "startColumn": 4,
+                        "startOffset": 7233,
+                        "endLine": 119,
+                        "endColumn": 12,
+                        "endOffset": 7340
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 120,
+                    "startColumn": 4,
+                    "startOffset": 7345,
+                    "endLine": 121,
+                    "endColumn": 12,
+                    "endOffset": 7441
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 120,
+                        "startColumn": 4,
+                        "startOffset": 7345,
+                        "endLine": 121,
+                        "endColumn": 12,
+                        "endOffset": 7441
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 122,
+                    "startColumn": 4,
+                    "startOffset": 7446,
+                    "endLine": 123,
+                    "endColumn": 12,
+                    "endOffset": 7564
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 122,
+                        "startColumn": 4,
+                        "startOffset": 7446,
+                        "endLine": 123,
+                        "endColumn": 12,
+                        "endOffset": 7564
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 124,
+                    "startColumn": 4,
+                    "startOffset": 7569,
+                    "endLine": 125,
+                    "endColumn": 12,
+                    "endOffset": 7689
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 124,
+                        "startColumn": 4,
+                        "startOffset": 7569,
+                        "endLine": 125,
+                        "endColumn": 12,
+                        "endOffset": 7689
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 126,
+                    "startColumn": 4,
+                    "startOffset": 7694,
+                    "endLine": 127,
+                    "endColumn": 12,
+                    "endOffset": 7801
+                },
+                "from": {
+                    "file": "E:\\android_stdioworkspace\\CAR_internet\\actionbarsherlock\\build\\intermediates\\bundles\\default\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 126,
+                        "startColumn": 4,
+                        "startOffset": 7694,
+                        "endLine": 127,
+                        "endColumn": 12,
+                        "endOffset": 7801
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/mymessagehead"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#0775e0">
+        <ImageView
+            android:id="@+id/mymessageback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/back"/>
+        <View
+            android:id="@+id/imcarline"
+            android:layout_width="1px"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/mymessageback"
+            android:layout_marginLeft="8dp"
+            android:background="#FFFFFF"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="个人信息"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/imcarline"/>
+
+        <Button
+            android:id="@+id/updatmymessagr_btn"
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:background="@drawable/button_shape"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:enabled="true"
+            android:text="保存"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/mymessage_bg_view"
+        android:layout_below="@id/mymessagehead"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@color/view_bg"/>
+
+    <RelativeLayout
+        android:id="@+id/persoanlimage__rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mymessage_bg_view"
+        android:layout_marginLeft="8dp">
+
+        <TextView
+            android:id="@+id/headphototext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_centerVertical="true"
+            android:includeFontPadding="false"
+            android:text="头像"/>
+        <ImageView
+            android:id="@+id/personal_photo"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/default_photo"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@id/persoanlimage__rl"
+        android:background="@color/bg_Gray" />
+
+    <RelativeLayout
+        android:id="@+id/nick_name_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/persoanlimage__rl"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_centerVertical="true"
+            android:includeFontPadding="false"
+            android:text="昵称"/>
+        <TextView
+            android:id="@+id/nick_namevalue"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="12dp"
+            android:singleLine="true"
+            android:text="梦随心所愿"/>
+
+    </RelativeLayout>
+    <View
+        android:id="@+id/cut_off_v1"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@id/nick_name_rl"
+        android:layout_marginTop="8dp"
+        android:background="@color/bg_Gray" />
+    <RelativeLayout
+        android:id="@+id/persoanl_email_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cut_off_v1"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_centerVertical="true"
+            android:includeFontPadding="false"
+            android:text="邮箱"/>
+        <TextView
+            android:id="@+id/personal_emailvalue"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:layout_marginRight="12dp"
+            android:text="邮箱"/>
+    </RelativeLayout>
+    <View
+        android:id="@+id/email_under_line"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@id/persoanl_email_rl"
+        android:background="@color/bg_Gray" />
+    <RelativeLayout
+        android:id="@+id/personal_address_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email_under_line"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_centerVertical="true"
+            android:includeFontPadding="false"
+            android:text="地址"/>
+        <TextView
+            android:id="@+id/personal_addressvalue"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="12dp"
+            android:gravity="center"
+            android:text="地址"/>
+
+    </RelativeLayout>
+    <View
+        android:id="@+id/personal_addressline"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/personal_address_rl"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/bg_Gray" />
+    <RelativeLayout
+        android:id="@+id/personal_idrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/personal_addressline"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_centerVertical="true"
+            android:includeFontPadding="false"
+            android:text="身份证号码"/>
+        <TextView
+            android:id="@+id/personal_idvalue"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="12dp"
+            android:gravity="center"
+            android:text="440682199410205712"/>
+    </RelativeLayout>
+    <View
+        android:id="@+id/id_line"
+        android:layout_width="fill_parent"
+        android:layout_height="15dp"
+        android:layout_below="@id/personal_idrl"
+        android:layout_marginTop="8dp"
+
+        android:background="@color/bg_Gray" />
+    <RelativeLayout
+        android:id="@+id/persoanl_sex_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_line"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_centerVertical="true"
+            android:includeFontPadding="false"
+            android:text="性别"/>
+        <TextView
+            android:id="@+id/sex_value"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_height="32dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="12dp"
+            android:text="男"/>
+
+    </RelativeLayout>
+    <View
+        android:id="@+id/sex_line"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/persoanl_sex_rl"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/bg_Gray" />
+
+    <RelativeLayout
+        android:id="@+id/persoanl_age_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sex_line"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_centerVertical="true"
+            android:includeFontPadding="false"
+            android:text="年龄"/>
+        <TextView
+            android:id="@+id/age_value"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_height="32dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="12dp"
+            android:text="27"/>
+
+    </RelativeLayout>
+    <View
+        android:id="@+id/age_line"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/persoanl_age_rl"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/bg_Gray" />
+    <RelativeLayout
+        android:id="@+id/persoanl_profession_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/age_line"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_centerVertical="true"
+            android:includeFontPadding="false"
+            android:text="职业"/>
+        <TextView
+            android:id="@+id/profession_value"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_height="32dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="12dp"
+            android:text="开发工程师"/>
+
+    </RelativeLayout>
+    <View
+        android:id="@+id/profression_line"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/persoanl_profession_rl"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/bg_Gray" />
+
+</RelativeLayout>
