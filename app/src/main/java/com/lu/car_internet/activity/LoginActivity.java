@@ -836,7 +836,7 @@ public class LoginActivity extends Activity {
 				case 0:
 					//Toast.makeText(LoginActivity.this, "更新成功",Toast.LENGTH_LONG).show();
 					dialog.dismiss();
-					Toast.makeText(LoginActivity.this, "用户名或者密码错误", Toast.LENGTH_LONG).show();
+					Toast.makeText(LoginActivity.this, "用户名密码错误", Toast.LENGTH_LONG).show();
 					break;
 				case 1:
 					dialog.dismiss();
